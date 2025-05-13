@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1747167197 source:c:\users\aluno\desktop\teste\listadinamica\listaligada.c
+	<stdio.h>
+	<stdlib.h>
+	"listaLigada.h"
+
+1747167168 source:c:\users\aluno\desktop\teste\listadinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listaLigada.h"
+
+1747167201 c:\users\aluno\desktop\teste\listadinamica\listaligada.h
+
