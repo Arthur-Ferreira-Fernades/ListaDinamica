@@ -218,6 +218,24 @@ int consultaMatricula(Lista *li, int mat, ALUNO *al) {
     }
 }
 
+struct aluno coleta_dados_aluno() {
+    struct aluno a;
+
+    printf("\nDigite a matrícula: ");
+    scanf("%d", &a.matricula);
+
+    printf("Digite a nota 1: ");
+    scanf("%f", &a.nota1);
+
+    printf("Digite a nota 2: ");
+    scanf("%f", &a.nota2);
+
+    printf("Digite a nota 3: ");
+    scanf("%f", &a.nota3);
+
+    return a;
+}
+
 void apagaLista(Lista *li) {
     if (li != NULL) {
         ELEM *no;

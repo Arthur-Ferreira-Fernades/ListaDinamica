@@ -7,7 +7,7 @@ typedef struct elemento* Lista;
 
 Lista *criaLista();
 
-void abortaLista();
+void abortaPrograma();
 
 int tamanhoLista(Lista *li);
 
@@ -30,5 +30,7 @@ int removeOrdenado(Lista *li, int mat);
 int consultaPosicao(Lista *li, int posicao, ALUNO *al);
 
 int consultaMatricula(Lista *li, int mat, ALUNO *al);
+
+struct aluno coleta_dados_aluno();
 
 void apagaLista (Lista *li);
